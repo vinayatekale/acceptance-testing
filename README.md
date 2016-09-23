@@ -15,7 +15,7 @@ This application displays the 5 day weather forecast for a given location.
 
 We would like the application to be tested against the requirements above. Please rewrite the requirements into an appropriate format, e.g. BDD story files, adding any requirements that you think appropriate, such as edge cases or accessibility improvements.
 
-Please write a set of automated tests against those requirements using any language and / or test framework of your choice.
+Please write a set of automated acceptance tests against those requirements using any language and / or test framework of your choice.
 
 The application is running in "test" mode, using a set of test data, matching that which comes from the public API at OpenWeatherMap (http://openweathermap.org/forecast5). There is test data for a number of locations, found in the folder ```src/data```.
 

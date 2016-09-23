@@ -5,13 +5,12 @@ This application displays the 5 day weather forecast for a given location.
 * Enter city name, get 5 day weather forecast
 * Select day, get 3 hourly forecast
 * Select day again, hide 3 hourly forecast
-* Daily forecast should summarise 3 hourly:
-  * Most dominant condition
-  * Current wind speed and direction
+* Daily forecast should summarise the 3 hour data:
+  * Most dominant (or current) condition
+  * Most dominant (or current) wind speed and direction
   * Aggregate rainfall
   * Minimum and maximum temperatures
 * All values should be rounded down
-* Rainfall rounded up (e.g. 0.5mm is 1mm)
 
 We would like the application to be tested against the requirements above. Please rewrite the requirements into an appropriate format, e.g. BDD story files, adding any requirements that you think appropriate, such as edge cases or accessibility improvements.
 

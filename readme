@@ -1,0 +1,32 @@
+2) Folder strcture would be 
+   
+    src/test/java
+> 
+         CucumberFramework
+> 
+             FeatureFiles
+ 
+                 <keep feature files here to be created as per 
+                    requirements>
+               
+             StepDefinitionClasses
+
+                  <code related to functions to be performed for verifying the feature file functionality goes here>
+                  
+             XPATH
+                  <Xpath files per page of the application>
+3) The feature file would be 
+       weeklyForecast.feature
+               
+       Feature: User should get 5day weather forecast displayed when entered city name 
+   
+       Scenario: Get 5 day forecast for desired city.
+               
+       @Given ("User navigates to https://openweathermap.org/forecast5 site")
+               public void user_navigates_to_site throws Throwable
+                  
+       @When ("selects city name")
+       @Then ("Weather forecast for 5 days for the city should be displayed")                
+
+4) Actual java code for each step would go in Step file 
+5) XPATH of the web elements per page would be stored in separate folder hierarchy in .XPATH files.
